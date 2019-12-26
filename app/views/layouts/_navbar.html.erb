@@ -1,0 +1,145 @@
+<!-- header -->
+<header class="header-sticky header-dark">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="<%=root_path%>">
+        <img class="navbar-logo navbar-logo-light" src="../../assets/cooodit/test-logo.png" alt="Logo">
+        <img class="navbar-logo navbar-logo-dark" src="../../assets/cooodit/test-dark.png" alt="Logo">
+      </a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="burger"><span></span></span></button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav align-items-center mr-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="<%=programs_path%>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              PROGRAMMES
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="<%=hebdo_path%>">
+                <span >Ateliers Hebdomadaires</span>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="<%=deco_path%>">
+                <span>Ateliers Découverte</span>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="<%=bootcamp_path%>">
+                <span>Stages et Bootcamp</span>
+              </a>
+            </div>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="<%=campus_path%>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              CAMPUS
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="<%=pontoise_path%>">
+                <span>Pontoise</span>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="<%=cergy_path%>">
+                <span>Cergy</span>
+              </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="<%=faq_path%>" role="button">
+              FAQ
+            </a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://cooodit.eventbrite.com" role="button">
+              EVENTS
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact_formulaire" onclick="openContact()" cible="popup:fenetre001" role="button">
+              CONTACT
+            </a>
+          </li>
+        </ul>
+        <ul class="navbar-nav align-items-center mr-0">
+            <li class="nav-item">
+            <button onclick="window.location.href = 'https://cooodit.typeform.com/to/sLbWVh';" type="button" class="btn btn-sm btn-rounded btn-primary text-white px-4"><strong>J&apos;inscris mon enfant </strong></button>
+            </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <!--<div class="shadow-container"></div>-->
+  <!-- Formulaire de contact pop-up -->
+  <div id="contact_formulaire">
+  <button id="close" onclick="closeContact()">X</button>
+			<form id="contact-form" action="contact.html.erb" method="post">
+				<aside class="alert d-none">
+				</aside>
+				<ul class="list-unstyled">
+					<li class="form-group">
+						<label for="name">Nom*</label>
+						<input type="text" class="form-control" id="name" name="name" placeholder="NOM Prénom" required/>
+					</li>
+					<li class="form-group">
+						<label for="email">Email*</label>
+						<input type="email" class="form-control" id="email" name="email" placeholder="votre_email@mail.com" required/>
+          </li>
+          <li class="form-group">
+						<label for="tel">Téléphone</label>
+						<input type="tel" class="form-control" id="tel" name="tel" placeholder="0123456789">
+					</li>
+					<li class="form-group">
+						<label for="subject">Sujet*</label>
+						<input type="text" class="form-control" id="subject" name="subject" placeholder="Ex : Inscription" required/>
+					</li>
+					<li class="form-group">
+						<label for="message">Message*</label>
+						<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Description ..." required/></textarea>
+					</li>
+					<li class="form-group">
+						<center><button class="btn btn-primary">Envoyer</button></center>
+					</li>
+				</ul>
+			</form>
+  </div>
+
+  <!-- Formulaire Programme pop-up -->
+  <div id="program_formulaire">
+  <button id="closeProgram" onclick="closeProgram()">X</button>
+			<form id="program-form" >
+				<aside class="alert d-none">
+				</aside>
+				<ul class="list-unstyled">
+					<li class="form-group">
+						<label for="name">Nom*</label>
+						<input type="text" class="form-control" id="name" name="name" placeholder="NOM" required/>
+          </li>
+          <li class="form-group">
+						<label for="name">Prénom*</label>
+						<input type="text" class="form-control" id="name" name="name" placeholder="Prénom" required/>
+					</li>
+					<li class="form-group">
+						<label for="email">Email*</label>
+						<input type="email" class="form-control" id="email" name="email" placeholder="votre_email@mail.com" required/>
+          </li>
+					<li class="form-group">
+            <label   for="subject">Quel programme vous intéresse ? *</label>
+            <select class="subject" id="subject">
+              <option value="1" class="subject">Ateliers Hebdomadaires</option>
+              <option value="2" class="subject">Ateliers Découverte</option>
+              <option value="3" class="subject">Stages & Bootcamp</option>
+            </select>
+					</li>
+					<li class="form-group">
+            <center>
+              <a href="<%=merci_path%>" class="btn btn-primary" onclick="window.open('https://drive.google.com/file/d/1I0nvK0HVrJTw4epGBVitM5hWQeBDzaWb/view','_blank')">Envoyer</a>
+              <!--<a href="<%=merci_path%>" class="btn btn-primary" onclick="openMerci()">Envoyer</a>-->
+            </center>
+					</li>
+				</ul>
+			</form>
+  </div>
+</header>
+
+<!-- header -->
