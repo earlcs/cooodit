@@ -14818,10 +14818,10 @@ img {
     -moz-transition-delay: 0s;
     transition-delay: 0s;
     display: block;
-    line-height: 1em;
-    width: 1em;
-    padding: 1rem;
-    border-radius: 50%; }
+    line-height: .5px;
+    width: 5px;
+    padding: 1.2rem;
+    border-radius: 20%; }
     .socials a:hover {
       background: none; }
   .socials[class*="vertical"] > li {
@@ -20503,3 +20503,56 @@ option[class=subject]{
   padding-top: 4px;
 }
 
+/* Icones */
+
+.fab.fa-facebook-f.fs-20:hover{
+  background: rgba(255, 255, 255, 1);
+  color: #00DBD0;
+}
+.fab.fa-facebook-f.fs-20:hover a{
+  color: #00DBD0;
+}
+
+.fab.fa-instagram.fs-20:hover{
+  background: rgba(255, 255, 255, 1);
+  color: #00DBD0;
+}
+.fab.fa-instagram.fs-20:hover a{
+  color: #00DBD0;
+}
+
+.fab.fa-twitter.fs-20:hover{
+  background: rgba(255, 255, 255, 1);
+  color: #00DBD0;
+}
+.fab.fa-twitter.fs-20:hover a{
+  color: #00DBD0;
+}
+
+.fab.fa-linkedin.fs-20:hover{
+  background: rgba(255, 255, 255, 1);
+  color: #00DBD0;
+}
+.fab.fa-linkedinr.fs-20:hover a{
+  color: #00DBD0;
+}
+
+.fa-linkedin:before {
+  content: "\f08c";
+  margin-left: -8px;
+}
+
+.fa-facebook:before {
+  content: "\f08c";
+  margin-left: -8px;
+}
+  
+ .fa-instagram:before {
+  content: "\f08c";
+  margin-left: -8px;
+}
+  
+.fa-twitter:before {
+  content: "\f08c";
+  margin-left: -8px;
+}
