@@ -7180,9 +7180,13 @@ button.bg-blue:focus {
     background-color: #00DBD0 !important; }*/
 
 /* Bannière */
+/*.boxed{
+  height:200px;width:1100px;margin-left:20px;
+}*/
 .bg-cooodit {
-  position: relative;
-  background-image: url(../../assets/cooodit/stages_de_noël2.png) !important;
+  /*position: relative;*/
+  background-image: url(../../assets/cooodit/stages_de_noël.png) !important;
+  /*height:200px;width:1100px;margin-left:20px;*/
 }
 /* Bannière */
 
