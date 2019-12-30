@@ -46,5 +46,8 @@ class PagesController < ApplicationController
 
   def merci
   end
+
+  def recrut
+  end
   
 end
