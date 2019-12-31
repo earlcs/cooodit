@@ -404,14 +404,10 @@ function closeProgram(){
 
 function openNotif() {
   $("#plus").css("margin-left", "-425px");
-  $("#plus").css("margin-bottom", "40px");
   $("#popUp").css("margin-left", "0px");
-  $("#popUp").css("margin-bottom", "40px");
 };
 
 function closeNotif() {
   $("#plus").css("margin-left", "0px");
-  $("#plus").css("margin-bottom", "40px");
   $("#popUp").css("margin-left", "-425px");
-  $("#popUp").css("margin-bottom", "40px");
 };
