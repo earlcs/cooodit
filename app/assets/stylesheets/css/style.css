@@ -20331,23 +20331,47 @@ pre[class*="language-"] {
   max-width : 100%;
   margin : 0 auto;
   width : 100%;
-  margin-left : 8%;
+  margin-left : 25%;
 }
 /*.list-unstyled {
   width : 50%;
 }*/
-.contact-info{
+/*.contact-info{
   float : right;
   margin : 0;
   margin-right : 10%;
   padding-top : 8%;
   max-width : 100%;
-}
+}*/
 .contact-formul{
   color : #b2bec3;
 }
 .formul-group{
   padding-bottom: 18px;
+}
+
+.formul-group .btn{
+  height: 35px;
+  border-radius: 1.5em;
+  line-height: 0.2;
+}
+
+#nom{
+  width: 300px;
+}
+
+.prénom{
+  width: 300px;
+  margin-left: 52%;
+  margin-top: -76px;
+  padding-bottom: 15px;
+}
+
+#home .btn{
+  margin-top: 15px;
+  height: 40px;
+  border-radius: 1.5em;
+  line-height: 0.2;
 }
 
 
@@ -20502,6 +20526,7 @@ option[class=subject]{
   margin-left : auto;
   padding-top: 4px;
 }
+
 
 /* Icones */
 
