@@ -20335,16 +20335,7 @@ pre[class*="language-"] {
   margin-left : 25%;
   padding-bottom: 40px;
 }
-/*.list-unstyled {
-  width : 50%;
-}*/
-/*.contact-info{
-  float : right;
-  margin : 0;
-  margin-right : 10%;
-  padding-top : 8%;
-  max-width : 100%;
-}*/
+
 .contact-formul{
   color : #b2bec3;
 }
@@ -20539,7 +20530,7 @@ option[class=subject]{
 /* Icones */
 
 .fab.fa-facebook-f.fs-20:hover{
-  background: rgba(255, 255, 255, 1);
+  /*background: rgba(255, 255, 255, 1);*/
   color: #00DBD0;
 }
 .fab.fa-facebook-f.fs-20:hover a{
@@ -20547,7 +20538,6 @@ option[class=subject]{
 }
 
 .fab.fa-instagram.fs-20:hover{
-  background: rgba(255, 255, 255, 1);
   color: #00DBD0;
 }
 .fab.fa-instagram.fs-20:hover a{
@@ -20555,7 +20545,6 @@ option[class=subject]{
 }
 
 .fab.fa-twitter.fs-20:hover{
-  background: rgba(255, 255, 255, 1);
   color: #00DBD0;
 }
 .fab.fa-twitter.fs-20:hover a{
@@ -20563,7 +20552,6 @@ option[class=subject]{
 }
 
 .fab.fa-linkedin.fs-20:hover{
-  background: rgba(255, 255, 255, 1);
   color: #00DBD0;
 }
 .fab.fa-linkedinr.fs-20:hover a{
