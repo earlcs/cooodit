@@ -20449,8 +20449,8 @@ textarea[class=form-control]:hover{
   margin-right: 5px;
   text-align: center;*/
   color: #fff;
-  right: 12px;
-  top: 10px;
+  right: 16px;
+  top: 14px;
   position: absolute;
   font-size: 20px;
   cursor: pointer;
@@ -20524,8 +20524,8 @@ option[class=subject]{
   margin-right: 5px;
   text-align: center;*/
   color: #fff;
-  right: 12px;
-  top: 10px;
+  right: 16px;
+  top: 14px;
   position: absolute;
   font-size: 20px;
   cursor: pointer;
