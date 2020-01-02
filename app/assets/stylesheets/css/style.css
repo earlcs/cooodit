@@ -20438,8 +20438,8 @@ textarea[class=form-control]:hover{
   height : 100px;
 }
 
-#close{
-	height : 35px;
+#contact_formulaire .close{
+	/*height : 35px;
 	width : 35px;
 	background-color: transparent;
 	color: white;
@@ -20447,8 +20447,15 @@ textarea[class=form-control]:hover{
   cursor: pointer;
   float : right;
   margin-right: 5px;
-  text-align: center;
+  text-align: center;*/
+  color: #fff;
+  right: 12px;
+  top: 10px;
+  position: absolute;
+  font-size: 20px;
+  cursor: pointer;
 }
+
 #contact_formulaire .btn{
   font-size: 14px;
   line-height: 1.5;
@@ -20506,8 +20513,8 @@ option[class=subject]{
   background-color: #ffffff;
 }
 
-#closeProgram{
-	height : 35px;
+#program_formulaire .fa{
+	/*height : 35px;
 	width : 35px;
 	background-color: transparent;
 	color: white;
@@ -20515,7 +20522,13 @@ option[class=subject]{
   cursor: pointer;
   float : right;
   margin-right: 5px;
-  text-align: center;
+  text-align: center;*/
+  color: #fff;
+  right: 12px;
+  top: 10px;
+  position: absolute;
+  font-size: 20px;
+  cursor: pointer;
 }
 #program_formulaire .btn{
   font-size: 14px;
@@ -20614,7 +20627,7 @@ option[class=subject]{
 
 #popUp .close {
   color: #464646;
-  right: 4px;
+  right: 10px;
   top: 8px;
   position: absolute;
   font-size: 20px;
