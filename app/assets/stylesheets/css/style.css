@@ -20379,7 +20379,7 @@ pre[class*="language-"] {
   padding-right: 0px;
 }
 
-#home .btn{
+#back_home .btn{
   margin-top: 40px;
   height: 40px;
   border-radius: 1.5em;
@@ -20564,9 +20564,9 @@ option[class=subject]{
 
 .fab.fa-facebook-f.fs-20:hover{
   transition: all 300ms; 
-  transition: cubic-bezier(0.785, 0.135, 0.15, 0.86));
+  transition: cubic-bezier(0.785, 0.135, 0.15, 0.86);
   transform: scale(1.5);
-  /*background: rgba(255, 255, 255, 1);*/
+  /*transform: translateY(-10px);*/
   color: #00DBD0;
 }
 .fab.fa-facebook-f.fs-20:hover a{
@@ -20575,8 +20575,9 @@ option[class=subject]{
 
 .fab.fa-instagram.fs-20:hover{
   transition: all 300ms; 
-  transition: cubic-bezier(0.785, 0.135, 0.15, 0.86));
-  transform: scale(1.5);
+  transition: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  /*transform: scale(1.5);*/
+  transform: translateY(-10px);
   color: #00DBD0;
 }
 .fab.fa-instagram.fs-20:hover a{
@@ -20585,8 +20586,9 @@ option[class=subject]{
 
 .fab.fa-twitter.fs-20:hover{
   transition: all 300ms; 
-  transition: cubic-bezier(0.785, 0.135, 0.15, 0.86));
+  transition: cubic-bezier(0.785, 0.135, 0.15, 0.86);
   transform: scale(1.5);
+  /*transform: translateY(-10px);*/
   color: #00DBD0;
 }
 .fab.fa-twitter.fs-20:hover a{
@@ -20597,6 +20599,7 @@ option[class=subject]{
   transition: all 300ms; 
   transition: cubic-bezier(0.785, 0.135, 0.15, 0.86));
   transform: scale(1.5);
+  /*transform: translateY(-10px);*/
   color: #00DBD0;
 }
 .fab.fa-linkedinr.fs-20:hover a{
