@@ -20327,11 +20327,13 @@ pre[class*="language-"] {
 
 
 /* Formualire de contact */
+
 .contact{
   max-width : 100%;
   margin : 0 auto;
   width : 100%;
   margin-left : 25%;
+  padding-bottom: 40px;
 }
 /*.list-unstyled {
   width : 50%;
@@ -20356,7 +20358,7 @@ pre[class*="language-"] {
   line-height: 0.2;
 }
 
-#nom{
+/*#nom{
   width: 300px;
 }
 
@@ -20365,10 +20367,20 @@ pre[class*="language-"] {
   margin-left: 52%;
   margin-top: -76px;
   padding-bottom: 15px;
+}*/
+
+.col {
+  column-count: 2;
+  column-gap: 1em;
+  column-width: 200px;
+  padding-bottom: 15px;
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 #home .btn{
-  margin-top: 15px;
+  margin-top: 40px;
   height: 40px;
   border-radius: 1.5em;
   line-height: 0.2;
@@ -20386,6 +20398,26 @@ pre[class*="language-"] {
   left : 35%;
   transition : 0.5s;
 }*/
+
+/* Formulaire de contact - Info */
+
+.space{
+  padding-top: 60px;
+  padding-bottom: 50px;
+  background-color: #f5f5f5;
+}
+
+.col-sm-4{
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col-sm-4 {
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%; }
 
 
 /* Formulaire de contact pop-up */
