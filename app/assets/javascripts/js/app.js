@@ -403,11 +403,19 @@ function closeProgram(){
 /* Notification */
 
 function openNotif() {
-  $("#plus").css("margin-left", "-425px");
   $("#popUp").css("margin-left", "0px");
+  $("#plus").css("margin-left", "-425px");
 };
 
 function closeNotif() {
-  $("#plus").css("margin-left", "0px");
   $("#popUp").css("margin-left", "-425px");
+  $("#plus").css("margin-left", "0px");
 };
+
+/* Cookies */
+
+function closeCookie(){
+  $("#cookie").css("margin-bottom", "-260px");
+  /*$("#cookie").css("transition", "3s");*/
+}
+
