@@ -14820,7 +14820,7 @@ img {
     display: block;
     line-height: .5px;
     width: 5px;
-    padding: 1.2rem;
+    padding: 1.5rem;
     border-radius: 20%; }
     .socials a:hover {
       background: none; }
@@ -20335,7 +20335,16 @@ pre[class*="language-"] {
   margin-left : 25%;
   padding-bottom: 40px;
 }
-
+/*.list-unstyled {
+  width : 50%;
+}*/
+/*.contact-info{
+  float : right;
+  margin : 0;
+  margin-right : 10%;
+  padding-top : 8%;
+  max-width : 100%;
+}*/
 .contact-formul{
   color : #b2bec3;
 }
@@ -20348,6 +20357,17 @@ pre[class*="language-"] {
   border-radius: 1.5em;
   line-height: 0.2;
 }
+
+/*#nom{
+  width: 300px;
+}
+
+.prénom{
+  width: 300px;
+  margin-left: 52%;
+  margin-top: -76px;
+  padding-bottom: 15px;
+}*/
 
 .col {
   column-count: 2;
@@ -20365,6 +20385,19 @@ pre[class*="language-"] {
   border-radius: 1.5em;
   line-height: 0.2;
 }
+
+
+/*#contact-form{
+  height : 300px;
+  width : 30%;
+  background-color : #f9ca24;
+  color : #fff;
+  border : none;
+  position: absolute;
+  top: -500px;
+  left : 35%;
+  transition : 0.5s;
+}*/
 
 /* Formulaire de contact - Info */
 
@@ -20530,6 +20563,9 @@ option[class=subject]{
 /* Icones */
 
 .fab.fa-facebook-f.fs-20:hover{
+  transition: all 300ms; 
+  transition: cubic-bezier(0.785, 0.135, 0.15, 0.86));
+  transform: scale(1.5);
   /*background: rgba(255, 255, 255, 1);*/
   color: #00DBD0;
 }
@@ -20538,6 +20574,9 @@ option[class=subject]{
 }
 
 .fab.fa-instagram.fs-20:hover{
+  transition: all 300ms; 
+  transition: cubic-bezier(0.785, 0.135, 0.15, 0.86));
+  transform: scale(1.5);
   color: #00DBD0;
 }
 .fab.fa-instagram.fs-20:hover a{
@@ -20545,6 +20584,9 @@ option[class=subject]{
 }
 
 .fab.fa-twitter.fs-20:hover{
+  transition: all 300ms; 
+  transition: cubic-bezier(0.785, 0.135, 0.15, 0.86));
+  transform: scale(1.5);
   color: #00DBD0;
 }
 .fab.fa-twitter.fs-20:hover a{
@@ -20552,6 +20594,9 @@ option[class=subject]{
 }
 
 .fab.fa-linkedin.fs-20:hover{
+  transition: all 300ms; 
+  transition: cubic-bezier(0.785, 0.135, 0.15, 0.86));
+  transform: scale(1.5);
   color: #00DBD0;
 }
 .fab.fa-linkedinr.fs-20:hover a{
@@ -20597,6 +20642,18 @@ option[class=subject]{
   margin-bottom: 40px;
 }
 
+/*#new span {
+  background: #fff;
+  position: absolute;
+  color: #1c8dc4;
+  padding: 4px 10px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: -5px;
+  z-index: 100000;
+}*/
+
 #popUp .close {
   color: #464646;
   right: 4px;
@@ -20616,6 +20673,21 @@ option[class=subject]{
   margin-top: 40px;
   padding: 0 20px;
 }
+
+/*a.button {
+  margin: 0 auto;
+  text-align: center;
+  right: 0;
+  left: 0;
+  position: absolute;
+  width: 120px;
+  font-size: 15px;
+  color: #fff;
+  border-bottom: 2px solid #18729f;
+  background: #1c8dc4;
+  border-radius: 4px;
+  padding: 8px 0;
+}*/
 
 #plus {
   position: fixed;
