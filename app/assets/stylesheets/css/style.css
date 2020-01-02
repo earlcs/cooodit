@@ -20358,17 +20358,6 @@ pre[class*="language-"] {
   line-height: 0.2;
 }
 
-/*#nom{
-  width: 300px;
-}
-
-.prénom{
-  width: 300px;
-  margin-left: 52%;
-  margin-top: -76px;
-  padding-bottom: 15px;
-}*/
-
 .col {
   column-count: 2;
   column-gap: 1em;
@@ -20385,19 +20374,6 @@ pre[class*="language-"] {
   border-radius: 1.5em;
   line-height: 0.2;
 }
-
-
-/*#contact-form{
-  height : 300px;
-  width : 30%;
-  background-color : #f9ca24;
-  color : #fff;
-  border : none;
-  position: absolute;
-  top: -500px;
-  left : 35%;
-  transition : 0.5s;
-}*/
 
 /* Formulaire de contact - Info */
 
@@ -20633,18 +20609,6 @@ option[class=subject]{
   margin-bottom: 40px;
 }
 
-/*#new span {
-  background: #fff;
-  position: absolute;
-  color: #1c8dc4;
-  padding: 4px 10px;
-  font-size: 16px;
-  font-weight: 600;
-  letter-spacing: 1px;
-  margin-top: -5px;
-  z-index: 100000;
-}*/
-
 #popUp .close {
   color: #464646;
   right: 4px;
@@ -20664,21 +20628,6 @@ option[class=subject]{
   margin-top: 40px;
   padding: 0 20px;
 }
-
-/*a.button {
-  margin: 0 auto;
-  text-align: center;
-  right: 0;
-  left: 0;
-  position: absolute;
-  width: 120px;
-  font-size: 15px;
-  color: #fff;
-  border-bottom: 2px solid #18729f;
-  background: #1c8dc4;
-  border-radius: 4px;
-  padding: 8px 0;
-}*/
 
 #plus {
   position: fixed;
