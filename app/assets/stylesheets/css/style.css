@@ -20782,3 +20782,7 @@ option[class=subject]{
   padding-top: 5px;
   font-size: 12px;
 }
+
+#cookie a{
+  color: blue;
+}
