@@ -402,15 +402,17 @@ function closeProgram(){
 
 /* Notification */
 
+function closeNotif() {
+  $("#popUp").css("margin-left", "-425px");
+  $("#plus").css("margin-left", "0px");
+};
+
 function openNotif() {
   $("#popUp").css("margin-left", "0px");
   $("#plus").css("margin-left", "-425px");
 };
 
-function closeNotif() {
-  $("#popUp").css("margin-left", "-425px");
-  $("#plus").css("margin-left", "0px");
-};
+
 
 /* Cookies */
 
