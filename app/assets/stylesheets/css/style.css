@@ -20758,7 +20758,7 @@ option[class=subject]{
 #cookie{
   position: fixed;
   max-width: 100%;
-  height: 160px;
+  height: 150px;
   background: rgba(236, 240, 241, 1);
   /*border: 7px solid #fff;*/
   bottom: 0;
@@ -20783,5 +20783,5 @@ option[class=subject]{
   padding-right: 275px;
   padding-bottom: 10px;
   padding-top: 5px;
-  font-size: 14px;
+  font-size: 12px;
 }
