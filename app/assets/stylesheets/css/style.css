@@ -20755,7 +20755,7 @@ option[class=subject]{
 
 /* Cookies */
 
-.cookie{
+#cookie{
   position: fixed;
   max-width: 100%;
   height: 150px;
