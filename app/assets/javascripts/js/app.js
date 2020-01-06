@@ -364,6 +364,7 @@
 
 function openContact(){
   document.getElementById("contact_formulaire").style.top="80px";
+  /*$('#contact_formulaire').focus();*/
 }
  
 function closeContact(){
