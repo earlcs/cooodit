@@ -20642,7 +20642,7 @@ option[class=subject]{
   padding: 0 20px;
 }
 
-#plus {
+/*#plus {
   position: fixed;
   color: #fff;
   bottom: 35%;
@@ -20673,15 +20673,15 @@ option[class=subject]{
   border-bottom: 55px solid transparent;
   border-left: 55px solid #1c8dc4;
   z-index: 100000;
-}
+}*/
 
 @media all and (max-width: 900px) {
   #popUp {
     margin-left: -425px;
   }
-  #plus {
+  /*#plus {
     margin-left: 0px;
-  }
+  }*/
 }
 
 #popUp .btn{
