@@ -407,10 +407,10 @@ function closeNotif() {
   /*$("#plus").css("margin-left", "0px");*/
 };
 
-function openNotif() {
-  /*$("#popUp").css("margin-left", "0px");
-  $("#plus").css("margin-left", "-425px");*/
-};
+/*function openNotif() {
+  $("#popUp").css("margin-left", "0px");
+  $("#plus").css("margin-left", "-425px");
+};*/
 
 
 
