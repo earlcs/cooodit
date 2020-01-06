@@ -28,6 +28,7 @@ get "/nous-rejoindre", to: "pages#job", :as => 'job'
 get "/mentions-legales", to: "pages#legal", :as => 'legal'
 get "/merci", to: "pages#merci", :as => 'merci'
 get "/recrutement", to: "pages#recrut", :as => 'recrut'
+get "/notification", to: "pages#notification", :as => 'notification'
 
 
 end
