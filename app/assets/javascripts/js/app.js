@@ -404,9 +404,16 @@ function closeProgram(){
 /* Notification */
 
 function closeNotif() {
-  $("#popUp").css("margin-left", "-425px");
+  $("#popUp").css("margin-bottom", "-425px");
+  $("#help").css("margin-bottom","-425px")
   /*$("#plus").css("margin-left", "0px");*/
 };
+
+function openNotif(){
+  $("#help").css('margin-bottom','0px');
+  $("#popUp").css('margin-bottom','-425px');
+
+}
 
 /*function openNotif() {
   $("#popUp").css("margin-left", "0px");
