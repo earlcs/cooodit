@@ -49,5 +49,8 @@ class PagesController < ApplicationController
 
   def recrut
   end
+
+  def cookie
+  end
   
 end
