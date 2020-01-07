@@ -29,6 +29,7 @@ get "/mentions-legales", to: "pages#legal", :as => 'legal'
 get "/merci", to: "pages#merci", :as => 'merci'
 get "/recrutement", to: "pages#recrut", :as => 'recrut'
 get "/notification", to: "pages#notification", :as => 'notification'
+get "/politique-cookies", to: "pages#cookie", :as => 'cookie'
 
 
 end
