@@ -7176,8 +7176,8 @@ button.bg-blue:hover,
 button.bg-blue:focus {
   background-color: #00227b !important; }
 
-/*.bg-cooodit {
-    background-color: #00DBD0 !important; }*/
+.bg-cooodit {
+  background-color: #00DBD0 !important; }
 
 /* Bannière */
 /*.boxed{
@@ -14319,7 +14319,7 @@ p {
   color: #999; }
 
 small {
-  color: #999; }
+  color: #fff; }
 
 a:hover {
   text-decoration: none; }
