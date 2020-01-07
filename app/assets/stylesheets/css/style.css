@@ -20608,9 +20608,9 @@ option[class=subject]{
 #popUp {
   position: fixed;
   max-width: 320px;
-  height: 260px;
+  height: auto;
   background: rgba(236, 240, 241, 1);
-  border: 7px solid #fff;
+  /*border: 7px solid #fff;*/
   bottom: 0;
   margin-left: 0;
   -webkit-transition: all 2s ease;
@@ -20619,6 +20619,7 @@ option[class=subject]{
   transition: all 2s ease;
   z-index: 100000;
   font-size: 12px;
+  padding-bottom: 10px;
 }
 
 #popUp .close {
@@ -20696,6 +20697,60 @@ option[class=subject]{
   width: 280px;
 }
 
+
+/* Notification - syllabus */
+
+#help {
+  position: fixed;
+  max-width: 320px;
+  height: auto;
+  background: rgba(236, 240, 241, 1);
+  /*border: 7px solid #fff;*/
+  bottom: 0;
+  margin-left: 0;
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -o-transition: all 2s ease;
+  transition: all 2s ease;
+  z-index: 100000;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+#help .close {
+  color: #464646;
+  right: 10px;
+  top: 8px;
+  position: absolute;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 100000;
+}
+
+.help-info {
+  color: #464646;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 40px;
+  padding: 0 12px;
+  padding-bottom: 10px;
+}
+
+#help .btn{
+  font-size: 14px;
+  line-height: 1.5;
+  border-radius: 0.9rem;
+  height: 30px;
+  margin-left: auto;
+  padding-top: 4px;
+}
+
+#help #email{
+  width: 280px;
+}
+
+
 /* Bouton accueil - scroll */
 
 .swiper-footer a i .fa {
@@ -20753,13 +20808,13 @@ option[class=subject]{
 
 #cookie{
   position: fixed;
-  max-width: 100%;
+  max-width: 400px;
   min-width: 200px;
   height: auto;
   background: rgba(236, 240, 241, 1);
   /*border: 7px solid #fff;*/
   bottom: 0;
-  left: 0;
+  /*left: 0;*/
   right: 0;
   -webkit-transition: all 2s ease;
   -moz-transition: all 2s ease;
