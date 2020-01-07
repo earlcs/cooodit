@@ -20780,3 +20780,12 @@ option[class=subject]{
 #cookie a{
   color: blue;
 }
+
+/* Annonces de recrutements */
+
+#recrut #back_home .btn{
+  margin-top: -25px;
+  height: 40px;
+  border-radius: 1.5em;
+  line-height: 0.2;
+}
