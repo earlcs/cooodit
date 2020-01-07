@@ -51,11 +51,21 @@
   <div id="popUp">
       <div id="close" class="close" onclick="closeNotif()"><i class="fa fa-times"></i></div>
       <!--<div id="new"><span>NEW!</span></div>-->
-      <div class="popUp-info">Besoin d&apos;aide pour choisir le meilleur atelier pour votre enfant ? Laissez votre e-mail ci-dessous et nous vous contacterons rapidement.</div>
+      <div class="popUp-info">Pour plus d&apos;informations sur les ateliers.</div>
       
+      <div>
+        <center><button class="btn btn-primary" id="syllabus" onclick="openNotif()">Syllabus</button></center>
+      </div>
+  </div>
+
+  <div id="help">
+      <div id="close" class="close" onclick="closeNotif()"><i class="fa fa-times"></i></div>
+      <div class="help-info">Besoin d&apos;aide pour choisir le meilleur atelier pour votre enfant ? Laissez votre e-mail ci-dessous et nous vous contacterons rapidement.</div>
       <div>
         <label for="email" style="padding-left: 35px;">E-mail</label>
         <center /><input type="email" class="form-control" id="email" name="email" placeholder="votre_email@mail.com" required/><br>
+      </div>
+      <div>
         <center><button class="btn btn-primary">Envoyer</button></center>
       </div>
   </div>
@@ -63,11 +73,13 @@
   <script>
 
     // popUp appear after 60 seconds
-    $("#popUp").hide();
+    $("#popUp").css('margin-bottom','-200px');
     setTimeout(function(){
-      $("#popUp").show();
-      $('#popUp').css('margin-left','0px');
-    },60000);
+      $('#popUp').css('margin-bottom','0px');
+    },6000);
+
+    $("#help").css('margin-bottom','-425px');
+    // function openNotif()
     
   </script>
   
