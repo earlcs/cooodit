@@ -20346,7 +20346,7 @@ pre[class*="language-"] {
   line-height: 0.2;
 }
 
-.col {
+.col-formulaire {
   column-count: 2;
   column-gap: 1em;
   column-width: 200px;
