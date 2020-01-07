@@ -168,7 +168,7 @@
 </div>-->
 
 <div id="cookie">
-  <div id="close" class="close" onclick="closeCookie()" style="line-height:3.5;"><i class="fa fa-times"></i></div>
+  <div id="close" class="close" onclick="closeCookie()"><i class="fa fa-times"></i></div>
   <center><h3>🍪</h3></center>
   <div class="cookie-info">
     En poursuivant votre navigation, <b>vous acceptez l&apos;utilisation des "cookies"</b> 
@@ -180,11 +180,10 @@
 <script>
 
     // popUp appear after 60 seconds
-    $("#cookie").hide();
+    $("#cookie").css('margin-bottom','-200px');
     setTimeout(function(){
-      $("#cookie").show();
       $('#cookie').css('margin-bottom','0px');
-    },60000);
+    },6000);
     
   </script>
 
