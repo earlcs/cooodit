@@ -20398,7 +20398,7 @@ pre[class*="language-"] {
   left : 30%;
   transition : 1.5s;
   border-radius: 0.5em;
-  z-index: 2;
+  z-index: 20000;
   
 }
 
