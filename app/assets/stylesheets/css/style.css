@@ -2747,6 +2747,7 @@ input[type="button"].btn-block {
   list-style: none; }
 
 .nav-link {
+  cursor: pointer;
   display: block;
   padding: 0.5rem 1rem; }
   .nav-link:hover, .nav-link:focus {
@@ -20770,6 +20771,7 @@ option[class=subject]{
 }
 
 .arrow-wrap {
+  cursor: pointer;
   position:absolute;
   z-index:1;
   left:50%;
