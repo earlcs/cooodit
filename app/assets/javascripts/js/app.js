@@ -363,13 +363,15 @@
 /* Formulaire de contact */
 
 function openContact(){
-  document.getElementById("contact_formulaire").style.top="80px";
+  $("#contact_formulaire").css("top", "80px");
+  /*document.getElementById("contact_formulaire").style.top="80px";*/
   /*$('#contact_formulaire').focus();*/
 }
  
 function closeContact(){
-  document.getElementById("contact_formulaire").style.top="-950px";
-  history.go(-1);
+  $("#contact_formulaire").css("top", "-950px");
+  /*document.getElementById("contact_formulaire").style.top="-950px";
+  history.go(-1);*/
 }
 
  /* Formulaire Programme */
@@ -381,6 +383,12 @@ function closeContact(){
 function closeProgram(){
   document.getElementById("program_formulaire").style.top="-950px";
   history.go(-1);
+}
+
+/* Bouton 'scroll-down' */
+
+function scrollDown(){
+  $('html,body').animate({ scrollTop: $(window)[0].innerHeight }, 1000);
 }
 
 /* pdf qui s'ouvre en fonction du programme choisi dans le formulaire de programme */
