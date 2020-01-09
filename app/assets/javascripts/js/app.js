@@ -377,12 +377,14 @@ function closeContact(){
  /* Formulaire Programme */
 
  function openProgram(){
-  document.getElementById("program_formulaire").style.top="80px";
+  $("#program_formulaire").css("top", "80px");
+  /*document.getElementById("program_formulaire").style.top="80px";*/
 }
  
 function closeProgram(){
-  document.getElementById("program_formulaire").style.top="-950px";
-  history.go(-1);
+  $("#program_formulaire").css("top", "-950px");
+  /*document.getElementById("program_formulaire").style.top="-950px";
+  history.go(-1);*/
 }
 
 /* Bouton 'scroll-down' */
