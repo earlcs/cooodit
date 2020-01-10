@@ -20851,22 +20851,13 @@ option[class=subject]{
 }
 
 
-body {
-	background-image: linear-gradient(45deg, #7175da, #9790F2);
-	font-family: 'Muli', sans-serif;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	min-height: 100vh;
-	margin: 0;
-}
 
-.courses-container {
+
+.coursestest-container {
 	
 }
 
-.course {
+.coursetest {
 	background-color: #fff;
 	border-radius: 10px;
 	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
@@ -20877,26 +20868,30 @@ body {
 	width: 700px;
 }
 
-.course h6 {
+.coursetest h6 {
 	opacity: 0.6;
 	margin: 0;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 }
 
-.course h2 {
+.coursetest h2 {
+	letter-spacing: 1px;
+	margin: 10px 0;
+}
+.coursetest h3 {
 	letter-spacing: 1px;
 	margin: 10px 0;
 }
 
-.course-preview {
+.coursetest-preview {
 	background-color: #2A265F;
 	color: #fff;
 	padding: 30px;
 	max-width: 250px;
 }
 
-.course-preview a {
+.coursetest-preview a {
 	color: #fff;
 	display: inline-block;
 	font-size: 12px;
@@ -20905,13 +20900,13 @@ body {
 	text-decoration: none;
 }
 
-.course-info {
+.coursetest-info {
 	padding: 30px;
 	position: relative;
 	width: 100%;
 }
 
-.progress-container {
+.progresstest-container {
 	position: absolute;
 	top: 30px;
 	right: 30px;
@@ -20919,14 +20914,14 @@ body {
 	width: 150px;
 }
 
-.progress {
+.progresstest {
 	background-color: #ddd;
 	border-radius: 3px;
 	height: 5px;
 	width: 100%;
 }
 
-.progress::after {
+.progresstest::after {
 	border-radius: 3px;
 	background-color: #2A265F;
 	content: '';
@@ -20937,7 +20932,7 @@ body {
 	width: 66%;
 }
 
-.progress-text {
+.progresstest-text {
 	font-size: 10px;
 	opacity: 0.6;
 	letter-spacing: 1px;
