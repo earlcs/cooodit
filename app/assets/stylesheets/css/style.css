@@ -20320,10 +20320,6 @@ pre[class*="language-"] {
 
 
 
-
-
-
-
 /* Formualire de contact */
 
 .contact{
@@ -20387,6 +20383,19 @@ pre[class*="language-"] {
 
 /* Formulaire de contact pop-up */
 
+#overlay{
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2000;
+}
+
 #contact_formulaire{
   height : auto;
   width : 40%;
@@ -20399,8 +20408,7 @@ pre[class*="language-"] {
   left : 30%;
   transition : 1.5s;
   border-radius: 0.5em;
-  z-index: 200;
-  
+  z-index: 2000;
 }
 
 #contact-form{
@@ -20478,7 +20486,7 @@ textarea[class=form-control]:hover{
   left : 30%;
   transition : 1.5s;
   border-radius: 0.5em;
-  z-index: 200;
+  z-index: 2000;
   
 }
 
@@ -20618,7 +20626,7 @@ option[class=subject]{
   -moz-transition: all 2s ease;
   -o-transition: all 2s ease;
   transition: all 2s ease;
-  z-index: 100000;
+  z-index: 1000;
   font-size: 12px;
   padding-bottom: 10px;
 }
@@ -20630,7 +20638,7 @@ option[class=subject]{
   position: absolute;
   font-size: 20px;
   cursor: pointer;
-  z-index: 100000;
+  z-index: 1000;
 }
 
 .popUp-info {
@@ -20713,7 +20721,7 @@ option[class=subject]{
   -moz-transition: all 2s ease;
   -o-transition: all 2s ease;
   transition: all 2s ease;
-  z-index: 100000;
+  z-index: 1000;
   font-size: 12px;
   padding-bottom: 10px;
 }
@@ -20725,7 +20733,7 @@ option[class=subject]{
   position: absolute;
   font-size: 20px;
   cursor: pointer;
-  z-index: 100000;
+  z-index: 1000;
 }
 
 .help-info {
@@ -20822,7 +20830,7 @@ option[class=subject]{
   -moz-transition: all 2s ease;
   -o-transition: all 2s ease;
   transition: all 2s ease;
-  z-index: 100000;
+  z-index: 1000;
   padding: 8px 8px 8px 30px;
   /*border-radius: 5em;*/
 }
