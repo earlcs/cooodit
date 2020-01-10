@@ -20851,8 +20851,6 @@ option[class=subject]{
 }
 
 
-
-
 .coursestest-container {
 	
 }
@@ -20934,7 +20932,7 @@ option[class=subject]{
 
 .progresstest-text {
 	font-size: 10px;
-	opacity: 0.6;
+	opacity: 0.2;
 	letter-spacing: 1px;
 }
 
