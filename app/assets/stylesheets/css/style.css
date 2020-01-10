@@ -20834,6 +20834,7 @@ option[class=subject]{
 
 #cookie a{
   color: blue;
+  cursor: pointer;
 }
 
 /* Annonces de recrutements */
