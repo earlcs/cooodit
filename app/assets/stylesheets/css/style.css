@@ -20412,7 +20412,7 @@ pre[class*="language-"] {
   left : 30%;
   transition : 1.5s;
   border-radius: 0.5em;
-  z-index: 200;
+  z-index: 2000;
   
 }
 
@@ -20491,7 +20491,7 @@ textarea[class=form-control]:hover{
   left : 30%;
   transition : 1.5s;
   border-radius: 0.5em;
-  z-index: 200;
+  z-index: 2000;
   
 }
 
@@ -20631,7 +20631,7 @@ option[class=subject]{
   -moz-transition: all 2s ease;
   -o-transition: all 2s ease;
   transition: all 2s ease;
-  z-index: 100000;
+  z-index: 1000;
   font-size: 12px;
   padding-bottom: 10px;
 }
@@ -20643,7 +20643,7 @@ option[class=subject]{
   position: absolute;
   font-size: 20px;
   cursor: pointer;
-  z-index: 100000;
+  z-index: 1000;
 }
 
 .popUp-info {
@@ -20726,7 +20726,7 @@ option[class=subject]{
   -moz-transition: all 2s ease;
   -o-transition: all 2s ease;
   transition: all 2s ease;
-  z-index: 100000;
+  z-index: 1000;
   font-size: 12px;
   padding-bottom: 10px;
 }
@@ -20738,7 +20738,7 @@ option[class=subject]{
   position: absolute;
   font-size: 20px;
   cursor: pointer;
-  z-index: 100000;
+  z-index: 1000;
 }
 
 .help-info {
@@ -20835,7 +20835,7 @@ option[class=subject]{
   -moz-transition: all 2s ease;
   -o-transition: all 2s ease;
   transition: all 2s ease;
-  z-index: 100000;
+  z-index: 1000;
   padding: 8px 8px 8px 30px;
   /*border-radius: 5em;*/
 }
