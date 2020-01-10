@@ -19048,7 +19048,7 @@ footer {
     .partners .owl-stage-outer .owl-stage .owl-item img {
       display: inline-block;
       width: initial;
-      max-width: 60%; }
+      max-width: 40%; }
 
 .blockquote {
   position: relative;
@@ -20949,3 +20949,5 @@ option[class=subject]{
 	right: 30px;
 	letter-spacing: 1px;
 }
+
+
