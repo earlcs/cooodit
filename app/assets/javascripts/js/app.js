@@ -374,18 +374,6 @@ function closeContact(){
   /*history.go(-1);*/
 }
 
-/* Blur background of popups */
-
-function on(){
-  $("#overlay").css("display","block");
-  /*document.getElementById("overlay").style.display="block";*/
-}
-
-function off(){
-  $("#overlay").css("display","none");
-  /*document.getElementById("overlay").style.display="none";*/
-}
-
  /* Formulaire Programme */
 
  function openProgram(){
@@ -397,6 +385,18 @@ function closeProgram(){
   $("#program_formulaire").css("top", "-950px");
   /*document.getElementById("program_formulaire").style.top="-950px";
   history.go(-1);*/
+}
+
+/* Blur background of popups */
+
+function on(){
+  $("#overlay").css("display","block");
+  /*document.getElementById("overlay").style.display="block";*/
+}
+
+function off(){
+  $("#overlay").css("display","none");
+  /*document.getElementById("overlay").style.display="none";*/
 }
 
 /* Bouton 'scroll-down' */
