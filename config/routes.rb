@@ -35,7 +35,7 @@ get "/ateliers_hebdomadaires_6e_5e", to: "pages#hebdo2", :as => 'hebdo2'
 get "/ateliers_hebdomadaires_4e_3e", to: "pages#hebdo3", :as => 'hebdo3'
 get "/ateliers_hebdomadaires_lycee", to: "pages#hebdo4", :as => 'hebdo4'
 get "/ateliers_hebdomadaires_ai", to: "pages#hebdo5", :as => 'hebdo5'
-
+get "/b2b", to: "pages#b2b", :as => 'b2b'
 
 
 end
