@@ -405,6 +405,12 @@ function scrollDown(){
   $('html,body').animate({ scrollTop: $(window)[0].innerHeight }, 1000);
 }
 
+/* Bouton 'scroll-down' */
+
+function scrollDown(){
+  $('html,body').animate({ scrollTop: $(window)[0].innerHeight }, 1000);
+}
+
 /* pdf qui s'ouvre en fonction du programme choisi dans le formulaire de programme */
 
 

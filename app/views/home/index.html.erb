@@ -21,7 +21,7 @@
                   </div>
                   <p class="text-white">Découvrez nos ateliers pour apprendre à coder pour enfants de 7 à 18 ans</p>
                   <!--<a href="<%=programs_path%>" class="btn btn-primary btn-lg  btn-rounded px-5" style="font-weight:bold"> VOIR NOS PROGRAMMES</a>-->
-                  <a href="#program_formulaire" onclick="openProgram()" class="btn btn-primary btn-lg  btn-rounded px-5" style="font-weight:bold"> VOIR NOS PROGRAMMES</a>
+                  <a onclick="openProgram(); on()" class="btn btn-primary btn-lg  btn-rounded px-5" style="font-weight:bold"> VOIR NOS PROGRAMMES</a>
                 </div>
               </div>
             </div>
@@ -33,7 +33,7 @@
             <div class="col text-center">
               <!--<div class="mouse"></div>-->
               <!-- Bouton scroll -->
-              <a class="arrow-wrap" href="#separator-top">
+              <a class="arrow-wrap" onclick="scrollDown()">
                 <i class="fa fa-arrow-down"></i>
               </a>
               <!-- / Bouton scroll -->
