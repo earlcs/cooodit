@@ -30,6 +30,12 @@ get "/merci", to: "pages#merci", :as => 'merci'
 get "/recrutement", to: "pages#recrut", :as => 'recrut'
 get "/notification", to: "pages#notification", :as => 'notification'
 get "/politique-cookies", to: "pages#cookie", :as => 'cookie'
+get "/ateliers_hebdomadaires_ce2_ce1_cm2_cm1", to: "pages#hebdo1", :as => 'hebdo1'
+get "/ateliers_hebdomadaires_6e_5e", to: "pages#hebdo2", :as => 'hebdo2'
+get "/ateliers_hebdomadaires_4e_3e", to: "pages#hebdo3", :as => 'hebdo3'
+get "/ateliers_hebdomadaires_lycee", to: "pages#hebdo4", :as => 'hebdo4'
+get "/ateliers_hebdomadaires_ai", to: "pages#hebdo5", :as => 'hebdo5'
+get "/b2b", to: "pages#b2b", :as => 'b2b'
 
 
 end
