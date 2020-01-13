@@ -19049,7 +19049,7 @@ footer {
     .partners .owl-stage-outer .owl-stage .owl-item img {
       display: inline-block;
       width: initial;
-      max-width: 60%; }
+      max-width: 40%; }
 
 .blockquote {
   position: relative;
@@ -20844,3 +20844,112 @@ option[class=subject]{
   border-radius: 1.5em;
   line-height: 0.2;
 }
+
+/*page atelier hebdo */
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+
+.coursestest-container {
+	
+}
+
+.coursetest {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	display: flex;
+	max-width: 100%;
+	margin: 20px;
+	overflow: hidden;
+	width: 700px;
+}
+
+.coursetest h6 {
+	opacity: 0.6;
+	margin: 0;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.coursetest h2 {
+	letter-spacing: 1px;
+	margin: 10px 0;
+}
+.coursetest h3 {
+	letter-spacing: 1px;
+	margin: 10px 0;
+}
+
+.coursetest-preview {
+	background-color: #2A265F;
+	color: #fff;
+	padding: 30px;
+	max-width: 250px;
+}
+
+.coursetest-preview a {
+	color: #fff;
+	display: inline-block;
+	font-size: 12px;
+	opacity: 0.6;
+	margin-top: 30px;
+	text-decoration: none;
+}
+
+.coursetest-info {
+	padding: 30px;
+	position: relative;
+	width: 100%;
+}
+
+.progresstest-container {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	text-align: right;
+	width: 150px;
+}
+
+.progresstest {
+	background-color: #ddd;
+	border-radius: 3px;
+	height: 5px;
+	width: 100%;
+}
+
+.progresstest::after {
+	border-radius: 3px;
+	background-color: #2A265F;
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 5px;
+	width: 66%;
+}
+
+.progresstest-text {
+	font-size: 10px;
+	opacity: 0.2;
+	letter-spacing: 1px;
+}
+
+.btntest {
+	background-color: #2A265F;
+	border: 0;
+	border-radius: 50px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	color: #fff;
+	font-size: 16px;
+	padding: 12px 25px;
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	letter-spacing: 1px;
+}
+
+

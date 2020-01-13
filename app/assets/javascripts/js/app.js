@@ -387,6 +387,18 @@ function closeProgram(){
   history.go(-1);*/
 }
 
+/* Blur background of popups */
+
+function on(){
+  $("#overlay").css("display","block");
+  /*document.getElementById("overlay").style.display="block";*/
+}
+
+function off(){
+  $("#overlay").css("display","none");
+  /*document.getElementById("overlay").style.display="none";*/
+}
+
 /* Bouton 'scroll-down' */
 
 function scrollDown(){
