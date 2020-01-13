@@ -370,8 +370,8 @@ function openContact(){
  
 function closeContact(){
   $("#contact_formulaire").css("top", "-950px");
-  /*document.getElementById("contact_formulaire").style.top="-950px";
-  history.go(-1);*/
+  /*document.getElementById("contact_formulaire").style.top="-950px";*/
+  /*history.go(-1);*/
 }
 
  /* Formulaire Programme */
@@ -397,12 +397,6 @@ function on(){
 function off(){
   $("#overlay").css("display","none");
   /*document.getElementById("overlay").style.display="none";*/
-}
-
-/* Bouton 'scroll-down' */
-
-function scrollDown(){
-  $('html,body').animate({ scrollTop: $(window)[0].innerHeight }, 1000);
 }
 
 /* Bouton 'scroll-down' */
