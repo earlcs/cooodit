@@ -448,6 +448,10 @@ function openNotif(){
 
 function closeCookie(){
   $("#cookie").css("margin-bottom", "-260px");
+  /* As soon as #cookie closes, there will be a delay of 60 seconds defore #popUp is displayed */
+  setTimeout(function(){
+    $('#popUp').css('margin-bottom','0px');
+  },60000);
   /*$("#cookie").css("transition", "3s");*/
 }
 
