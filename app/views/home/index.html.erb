@@ -61,9 +61,15 @@
   <div id="help">
       <div id="close" class="close" onclick="closeNotif()"><i class="fa fa-times"></i></div>
       <div class="help-info">Besoin d&apos;aide pour choisir le meilleur atelier pour votre enfant ? Laissez votre e-mail ci-dessous et nous vous contacterons rapidement.</div>
-      <div>
-        <label for="email" style="padding-left: 35px;">E-mail</label>
-        <center /><input type="email" class="form-control" id="email" name="email" placeholder="votre_email@mail.com" required/><br>
+      <div class="col-formulaire">
+        <label for="nom">Nom*</label>
+        <input type="text" class="form-control" id="nom" name="nom" placeholder="NOM" required/>
+        <label for="prénom">Prénom*</label>
+        <input type="text" class="form-control" id="prénom" name="prénom" placeholder="Prénom" required/>
+      </div>
+      <div style="padding: 0 20px 0 20px;">
+        <label for="email">E-mail</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="votre_email@mail.com" required/><br>
       </div>
       <div>
         <center><button class="btn btn-primary">Envoyer</button></center>
