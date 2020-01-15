@@ -20411,6 +20411,16 @@ pre[class*="language-"] {
   z-index: 2000;
 }
 
+#contact_formulaire .col-formulaire{
+  column-count: 2;
+  column-gap: 1em;
+  column-width: 100px;
+  padding-bottom: 15px;
+  width: 100%;
+  /*padding-left: 0px;
+  padding-right: 0px;*/
+}
+
 #contact-form{
   padding-top : 20px;
   margin-left: 15%;
