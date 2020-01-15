@@ -20765,6 +20765,16 @@ option[class=subject]{
   padding-top: 4px;
 }
 
+#help .col-formulaire{
+  column-count: 2;
+  column-gap: .5em;
+  column-width: auto;
+  /*padding-bottom: 15px;*/
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 #help #email{
   width: 280px;
 }
